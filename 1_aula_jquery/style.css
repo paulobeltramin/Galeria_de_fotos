@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.container_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background-color: blue;
+    text-transform: uppercase;
+}
+
+.options_header {
+    display: flex;
+    gap: 30px;
+    color: white;
+
+}
+
+.options_header button {
+    background-color: aquamarine;
+    color: black;
+    padding: 8px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* envio de imagens */
+
+.container_input {
+    background-color: rgb(179, 248, 248);
+    height: 70px;
+    display: none;
+
+
+}
+
+#form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#form input {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#form button {
+    background-color: lawngreen;
+    width: 100px;
+    padding: 4px;
+    border-radius: 6px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+#form #btn_cancel {
+    background-color: rgb(245, 13, 13);
+    color: white;
+}
+
+/* galeria de imagens  */
+
+.container_galery {
+    max-width: 900px;
+    width: 100%;
+
+
+
+
+}
+
+
+.container_galery ul {
+    display: grid;
+    padding: 15px;
+    max-width: 900px;
+    width: 100%;
+    grid-template-columns: 200px 200px 200px;
+    height: auto;
+    justify-content: space-between;
+
+
+
+}
+
+
+img {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+.ancora {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 6px;
+    margin-bottom: 40px;
+    justify-content: center;
+    margin: 0 auto 40px auto;
+
+
+}
+
+.ancora a {
+    color: white;
+    font-weight: bold;
+}
